@@ -3,7 +3,7 @@
 # Maven 3.2.2
 # Jenkins 1.574
 # git 1.9.1
-# Nano 2.2.6-1ubuntu1
+
 
 # cf - https://github.com/TexaiCognitiveArchitecture/docker-java8-jenkins-maven-git-nano
 
@@ -37,8 +37,6 @@ ENV MAVEN_HOME /opt/maven
 # install git
 RUN apt-get install -y git
 
-# install nano
-RUN apt-get install -y nano
 
 # remove download archive files
 RUN apt-get clean
