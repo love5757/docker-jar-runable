@@ -1,5 +1,5 @@
-# docker-jar-runable
-docker-jar-runable는 jar를 docker에서 운영하기 위한 Dockerfile 이 포함되어 있습니다.
+# docker-java8-jenkins-maven-git
+docker-java8-jenkins-maven-git
 
 # docker-jar-runable 설치
 
